@@ -19,7 +19,7 @@ Any question, please let me know: kcxu@zju.edu.cn
 ###  Installation
 
 - Ubuntu 18.04
-- Torch==1.7.1, Torchvision==0.8.2
+- Torch 1.7.1, Torchvision 0.8.2
 - Pybullet (simulation environment)
 - Cuda 11.1
 - GTX 3060, 12GB memory is tested
@@ -42,7 +42,7 @@ cd ../knn
 python setup.py install
 ```
 ### Assets
-We provide the processed object models in this link (TODO). Please download the file and unzip it in the `assets` folder.
+We provide the processed object models in this [link](https://drive.google.com/drive/folders/1WxKDFXJktoqiP0jmkDZrMCcNNBx5u-YM?usp=drive_link). Please download the file and unzip it in the `assets` folder.
 
 ## Training
 
