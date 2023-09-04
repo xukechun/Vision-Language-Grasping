@@ -55,6 +55,16 @@ To test the pre-trained model, simply change the location of `--model_path`:
 python test.py --load_model True --model_path 'PATH OF YOUR CHECKPOINT FILE'
 ```
 
+## Demos
+<div align="left">
+
+| <img src="images/a.gif" width="150" height="200"/> | <img src="images/b.gif" width="150" height="200" /> |
+|:--:|:--:|
+|"give me the cup"|"I need a fruit"|
+| <img src="images/c.gif" width="150" height="200" title="c" alt="alt text"/>  | <img src="images/d.gif" width="150" height="200"/> |
+|"get something to drink"|"grasp a round object"|
+
+
 ## Citation
 
 If you find this work useful, please consider citing:
