@@ -1,7 +1,7 @@
 # A Joint Modeling of Vision-Language-Action for Target-oriented Grasping in Clutter
 This is the official repository for the paper: A Joint Modeling of **Vi**sion-**L**anguage-Action for Target-oriented **G**rasping in Clutter (ICRA 2023).
 
-Paper: https://arxiv.org/abs/2302.12610
+[Paper](https://arxiv.org/abs/2302.12610) | [Video](https://www.bilibili.com/video/BV1yh4y1a7Ha/?spm_id_from=333.999.0.0)
 
 ![introductory video](images/vilg_video.gif)
 
@@ -41,6 +41,10 @@ python setup.py install
 ```
 ### Assets
 We provide the processed object models in this [link](https://drive.google.com/drive/folders/1WxKDFXJktoqiP0jmkDZrMCcNNBx5u-YM?usp=drive_link). Please download the file and unzip it in the `assets` folder.
+
+### Pretrained Model
+We provide the processed object models in this [link](https://drive.google.com/drive/folders/1LCuoXX92X8L9wqJTbVqvskjRhTJrDDay?usp=sharing). 
+
 
 ## Training
 
