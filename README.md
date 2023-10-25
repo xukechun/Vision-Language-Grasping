@@ -43,7 +43,7 @@ python setup.py install
 We provide the processed object models in this [link](https://drive.google.com/drive/folders/1WxKDFXJktoqiP0jmkDZrMCcNNBx5u-YM?usp=drive_link). Please download the file and unzip it in the `assets` folder.
 
 ### Pretrained Model
-We provide the processed object models in this [link](https://drive.google.com/drive/folders/1LCuoXX92X8L9wqJTbVqvskjRhTJrDDay?usp=sharing). 
+We provide the pretrained model in this [link](https://drive.google.com/drive/folders/1LCuoXX92X8L9wqJTbVqvskjRhTJrDDay?usp=sharing). 
 
 
 ## Training
