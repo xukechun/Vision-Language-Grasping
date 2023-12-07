@@ -39,6 +39,30 @@ python setup.py install
 cd ../knn
 python setup.py install
 ```
+
+###  Potential Issues of installation
+- When installing graspnetAPI, the following problem might occur:
+```
+× python setup.py egg_info did not run successfully.
+│ exit code: 1
+╰─> [18 lines of output]
+The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+rather than 'sklearn' for pip commands.
+```
+solution:
+```
+export SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
+```
+- Check the version of compatible torch and torchvision of your machine (especially the cuda vision) if the following problem occurs:
+```
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+```
+solution: to install torch with the right cuda version, e.g.
+```
+# CUDA 11.0
+pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
 ### Assets
 We provide the processed object models in this [link](https://drive.google.com/drive/folders/1WxKDFXJktoqiP0jmkDZrMCcNNBx5u-YM?usp=drive_link). Please download the file and unzip it in the `assets` folder.
 
