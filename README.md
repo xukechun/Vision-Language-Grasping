@@ -40,7 +40,7 @@ cd ../knn
 python setup.py install
 ```
 
-###  Potential Issues of installation
+###  Potential Issues of Installation
 - When installing graspnetAPI, the following problem might occur:
 ```
 × python setup.py egg_info did not run successfully.
@@ -53,7 +53,7 @@ solution:
 ```
 export SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 ```
-- Check the version of compatible torch and torchvision of your machine (especially the cuda vision) if the following problem occurs:
+- Check the compatible version of torch and torchvision of your machine (especially the cuda vision) if the following problem occurs:
 ```
 RuntimeError: CUDA error: no kernel image is available for execution on the device
 ```
