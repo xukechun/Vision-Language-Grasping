@@ -1,0 +1,8 @@
+README.md
+setup.py
+vilg.egg-info/PKG-INFO
+vilg.egg-info/SOURCES.txt
+vilg.egg-info/dependency_links.txt
+vilg.egg-info/not-zip-safe
+vilg.egg-info/requires.txt
+vilg.egg-info/top_level.txt
