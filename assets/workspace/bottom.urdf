@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<robot name="bottom">
+
+    <link name="bottom_base_link">
+
+    <visual>
+        <origin rpy="0 0 0" xyz="0 0 0.01"/>
+        <geometry>
+            <mesh filename="bottom.obj" scale="1 1 1"/>
+        </geometry>
+    </visual>
+    <inertial>
+      <mass value="0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    </link>
+</robot>

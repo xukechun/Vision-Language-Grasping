@@ -1,0 +1,14 @@
+**/__pycache__/**
+*.ipynb
+**/.ipynb_checkpoints/**
+*.npy
+*.npz
+**/.vscode/**
+**/grasp_label*/**
+**/dump*/**
+**/build/**
+*.o
+*.so
+*.egg
+**/*.egg-info/**
+dataset/tolerance
