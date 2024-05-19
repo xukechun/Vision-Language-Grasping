@@ -80,7 +80,7 @@ python scripts/train.py
 To test the pre-trained model, simply change the location of `--model_path`:
 
 ```python
-python scripts/test.py --load_model True --model_path 'PATH OF YOUR CHECKPOINT FILE'
+python scripts/test.py --load_model --model_path 'PATH OF YOUR CHECKPOINT FILE'
 ```
 
 ## Demos
