@@ -45,7 +45,7 @@ python setup.py install
 
 ## Easy Installation
 
-For the convinence of reproduction, we provide our conda environment produced by conda-pack in this [link](https://drive.google.com/file/d/18A-wCePI3_yBsbCfRqc_9A0KKMTb86ml/view). NOTE: This environment is compatiable with CUDA 11.1.
+For the convenience of result reproduction, we provide our conda environment produced by conda-pack in this [link](https://drive.google.com/file/d/18A-wCePI3_yBsbCfRqc_9A0KKMTb86ml/view). NOTE: This environment is compatiable with CUDA 11.1.
 
 Then you can easily build and activate the conda environment by
 
