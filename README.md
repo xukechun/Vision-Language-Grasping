@@ -43,27 +43,6 @@ cd ../knn
 python setup.py install
 ```
 
-## Easy Installation
-
-For the convenience of result reproduction, we provide our conda environment produced by conda-pack in this [link](https://drive.google.com/file/d/18A-wCePI3_yBsbCfRqc_9A0KKMTb86ml/view). NOTE: This environment is compatiable with CUDA 11.1.
-
-Then you can easily build and activate the conda environment by
-
-```
-cd 'PATH OF YOUR CONDA ENVS'
-mkdir vilg
-tar -xzvf vilg.tar.gz -C vilg
-conda activate vilg
-
-python setup.py develop
-
-cd models/graspnet/pointnet2
-python setup.py install
-
-cd ../knn
-python setup.py install
-```
-
 ###  Potential Issues of Installation
 - When installing graspnetAPI, the following problem might occur:
 ```
@@ -85,6 +64,27 @@ solution: to install torch with the right cuda version, e.g.
 ```
 # CUDA 11.0
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+### Easy Installation
+
+For the convenience of result reproduction, we provide our conda environment produced by conda-pack in this [link](https://drive.google.com/file/d/18A-wCePI3_yBsbCfRqc_9A0KKMTb86ml/view). NOTE: This environment is compatiable with CUDA 11.1.
+
+Then you can easily build and activate the conda environment by
+
+```
+cd 'PATH OF YOUR CONDA ENVS'
+mkdir vilg
+tar -xzvf vilg.tar.gz -C vilg
+conda activate vilg
+
+python setup.py develop
+
+cd models/graspnet/pointnet2
+python setup.py install
+
+cd ../knn
+python setup.py install
 ```
 
 ### Assets
